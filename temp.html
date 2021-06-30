@@ -27,9 +27,10 @@
 </div>
 
 <!---tags
-  code
-  kbd
-  pre
+	code = It is mainly used to display the code snippet into the web browser.
+	kbd = represents the user keyboard input
+	pre
+	mark = highlights the text
   classes =
   class = jumbotron (header with background light color used in website title)
   contextutal text classes
@@ -50,7 +51,8 @@
   table tags
   1. thead = heading of the table darker version
   2. tbody = body of the table
-  3.
+  3.tr = table row
+  4. td = table data
 
   table classes =
   1. table table-striped = two alternate colors continuously
@@ -119,4 +121,85 @@
   Justified buttton groups =
   in div tag btn-group btn-group-justified (spreaded out)
 
-  --!>
+	glyphicon:
+	only in span tag class = glyphicon glphyicon-info
+  Badges and labels
+	only in span tag class = badge
+	progress bar = super div progress nested div class progress-bar role=progressbar
+	progress-bar progress-bar-success
+	progress-bar progress-bar-stripped active
+
+	Pagination=
+	class = pagination (can be used only with ul tag)
+
+	Breadcrumb
+	breadcrumb = output(1/2/3/4)
+
+	Pager =
+	class = pager (only used with ul tag)
+	class = previous used with list items (li tag)
+	class = next used with list items
+
+	class = list-group in ul/ol tags
+	class = list-group-item in li tags
+	color = list-group-item list-group-item-success
+
+	Panels = Panel header (used with div tags)
+	Panel content
+	panel footer
+IN DIV TAG
+	panel-group
+		panel panel-default
+			panel-heading
+				panel-body
+			panel-footer
+
+	Dropdown Menu
+	main div class= dropdown
+	in button tag class = btn btn-primary dropdown-toggle type=button data-toggle=dropdown
+	in span tag class = caret used for donw arrow
+	in ul tag class=dropdown-menu
+
+	Collapse= on clicking button content display
+	in button tag data-toggle=collapse data-target = id
+	in div tag specify the the same id of the target id class=collapse write content in it
+
+	collapse in..... (reverse of collapse)
+
+	panel collapse
+	panel-group
+		panel panel-primary
+			panel-heading
+			panel-title
+			in anchor tag data-toggle=collapse data-target/href=id
+
+
+	in div tag specify the targeted id  class=panel-collapse collapse
+	panel-body
+	panel-footer
+
+	similary with list items (ul/ol)
+
+	class=header (heading of the sub items)
+
+	Accordian =
+	panel-group id = anything
+		panel panel-default  (for color)
+			panel-heading
+			panel-title
+			in anchor tag data-toggle=collapse data-parent= #anything data-target/href = #id
+
+			panel-heading
+			panel-title
+				in div tag content with id same as data-target class=panel-collapse collapse in
+				  in div tag class=panel-body (content)
+
+
+	in ul tag class=list-inline (all items are horizontal)
+	 in ul tag class=nav nav-tabs (spacing difference)
+
+Pills =
+class = nav nav-pills
+class = nav-stacked
+
+--!>
